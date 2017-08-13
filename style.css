@@ -11,3 +11,22 @@
  Tags:
  Text Domain:  easy-hamilton-portfolio
 */
+
+/**
+	Override:
+	Hamilton style container width
+ */
+.PP_Wrapper {
+	margin: 0 auto;
+	max-width: 1240px;
+	width: 90%;
+}
+
+/**
+	Override:
+	Hamilton is using padding instead of a transparent border
+ */
+.PP_Masonry .PP_Masonry__item,
+.PP_Masonry .PP_Masonry__sizer {
+	width: 50%;
+}
