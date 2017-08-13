@@ -67,3 +67,7 @@
 .PP_Lazy_Image__placeholder {
 	background-color: #efefef;
 }
+
+.site-footer .site-footer__by {
+	font-size: .875rem;
+}
