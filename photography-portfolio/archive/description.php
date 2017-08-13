@@ -10,7 +10,7 @@
  */
 ?>
 
-<div <?php phort_class( 'PP_Description thin page-header section-inner' ) ?>>
+<div <?php phort_class( 'PP_Description thin page-header section-inner fade-block' ) ?>>
 	<div class="PP_Description__inner">
 
 		<h1 class="PP_Description__title title">
