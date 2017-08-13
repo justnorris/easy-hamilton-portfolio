@@ -31,13 +31,22 @@
 	width: 50%;
 }
 
+
+
+/**
+	Make Easy Photography Portfolio look more like Hamilton theme
+ */
 .PP_Entry__header {
 	font-weight: 300;
 	letter-spacing: -.025em;
 }
 .PP_Entry__title {
-	font-size: 2rem;
+	font-size: 40px;
 	margin-bottom: .75rem;
+}
+
+.PP_Card .PP_Entry__subtitle {
+	font-size: 1.45rem;
 }
 
 .PP_Card .PP_Entry__more {
@@ -48,4 +57,9 @@
 .PP_Card .PP_Entry__header {
 	bottom: 2.5rem;
 	left: 2.5rem;
+}
+
+.PP_Card .PP_Entry__view {
+	font-size: 1.125rem;
+	text-transform: none;
 }
