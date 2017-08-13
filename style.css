@@ -71,3 +71,16 @@
 .site-footer .site-footer__by {
 	font-size: .875rem;
 }
+
+
+/*
+	Fix Hamilton Bugs:
+ */
+.site-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.show-alt-nav .alt-nav {
+	margin-left: auto;
+}
