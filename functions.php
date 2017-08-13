@@ -11,4 +11,4 @@ function easy_hamilton_enqueue() {
 	wp_enqueue_style( 'easy-hamilton-style', get_stylesheet_uri() );
 }
 
-add_action( 'wp_print_styles', 'easy_hamilton_enqueue' );
+add_action( 'wp_enqueue_scripts', 'easy_hamilton_enqueue', 100 );
