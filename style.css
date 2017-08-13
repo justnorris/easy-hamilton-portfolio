@@ -63,3 +63,7 @@
 	font-size: 1.125rem;
 	text-transform: none;
 }
+
+.PP_Lazy_Image__placeholder {
+	background-color: #efefef;
+}
