@@ -8,7 +8,7 @@
  Version:      1.0.0
  License:      GNU General Public License v3 or later
  License URI:  http://www.gnu.org/licenses/gpl-3.0.html
- Tags:
+ Tags:		   photography, portfolio, blog, custom background, editor style, featured images, threaded comments
  Text Domain:  easy-hamilton-portfolio
 */
 
@@ -31,8 +31,6 @@
 	width: 50%;
 }
 
-
-
 /**
 	Make Easy Photography Portfolio look more like Hamilton theme
  */
@@ -40,6 +38,7 @@
 	font-weight: 300;
 	letter-spacing: -.025em;
 }
+
 .PP_Entry__title {
 	font-size: 40px;
 	margin-bottom: .75rem;
@@ -72,7 +71,6 @@
 	font-size: .875rem;
 }
 
-
 /*
 	Fix Hamilton Bugs:
  */
@@ -81,6 +79,7 @@
 	align-items: center;
 	justify-content: space-between;
 }
+
 .show-alt-nav .alt-nav {
 	margin-left: auto;
 }
