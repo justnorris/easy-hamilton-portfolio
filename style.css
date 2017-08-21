@@ -1,16 +1,19 @@
 /*
  Theme Name:   Minimalist Portfolio
  Theme URI:    http://colormelon.com/easy-hamilton-portfolio
- Description:  A Hamilton child theme with the power of Easy Photography Portfolio. The best bang for your buck.
- Author:       Norris
+ Description:  Make a minimalistic portfolio with this Hamilton child theme adding the power of Easy Photography Portfolio. The best bang for your buck.
+ Author:       Colormelon
  Author URI:   http://colormelon.com
  Template:     hamilton
  Version:      1.0.0
  License:      GNU General Public License v3 or later
  License URI:  http://www.gnu.org/licenses/gpl-3.0.html
  Tags:		   photography, portfolio, blog, custom background, editor style, featured images, threaded comments
- Text Domain:  easy-hamilton-portfolio
+ Text Domain:  minimalist-portfolio
 */
+
+
+/* ========= "Easy Photography Portfolio" Overrides ========= */
 
 /**
 	Override:
@@ -31,8 +34,12 @@
 	width: 50%;
 }
 
+
+/* ========= Portfolio Styles ========= */
+
+
 /**
-	Make Easy Photography Portfolio look more like Hamilton theme
+	Make "Easy Photography Portfolio" look more like Hamilton theme
  */
 .PP_Entry__header {
 	font-weight: 300;
@@ -70,6 +77,10 @@
 .site-footer .site-footer__by {
 	font-size: .875rem;
 }
+
+
+
+/* ========= Hamilton Overrides ========= */
 
 /*
 	Fix Hamilton Bugs:
