@@ -23,3 +23,13 @@ Theme Demo: http://befree.bycolormelon.com
 
 ## 1.0.0
 - Initial Release
+
+
+== Copyright ==
+Minimalist Portfolio WordPress Theme, Copyright 2017 Colormelon
+Minimalist Portfolio is distributed under the terms of the GNU GPLv3
+
+Minimalist Portfolio WordPress Theme is child theme of Hamilton WordPress Theme, Copyright 2012 Joe Smith
+Hamilton WordPress Theme is distributed under the terms of the GNU GPL
+
+== Credits ==
