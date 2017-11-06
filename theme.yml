@@ -1,0 +1,18 @@
+# Theme info:
+name: Minimalist Portfolio
+slug: minimalist-portfolio
+email: help@colormelon.com
+author: Colormelon
+
+# Tell BrowserSync where you're site is at:
+development_url: http://theme.wp
+
+# Build Process
+exclude_files:
+  - theme.yml
+  - gulpfile.babel.js
+  - assets/**
+  - assets/
+  - README.md
+  - package.json
+  - package-lock.json
