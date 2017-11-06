@@ -9,6 +9,9 @@ function minimalist_portfolio_enqueue() {
 
 	wp_enqueue_style( 'hamilton-style', get_template_directory_uri() . '/style.css', array( 'hamilton-fonts' ) );
 	wp_enqueue_style( 'minimalist-portfolio-style', get_stylesheet_uri() );
+
+	wp_dequeue_script('masonry');
+	wp_enqueue_script('jquery-masonry');
 }
 
 add_action( 'wp_enqueue_scripts', 'minimalist_portfolio_enqueue', 100 );
