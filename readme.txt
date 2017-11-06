@@ -1,7 +1,7 @@
 === Minimalist Portfolio ===
 Contributors: justnorris
 Donate link: http://colormelon.com
-Requires at least: 4.4
+Requires at least: 4.7
 Tested up to: 4.8.1
 Stable tag: trunk
 License: GPLv3 or later
