@@ -27,7 +27,7 @@
 
 /**
 	Override:
-	Hamilton is using padding instead of a transparent border
+	Masonry item width
  */
 .PP_Masonry .PP_Masonry__item,
 .PP_Masonry .PP_Masonry__sizer {
@@ -79,7 +79,6 @@
 }
 
 
-
 /* ========= Hamilton Overrides ========= */
 
 /*
@@ -93,4 +92,39 @@
 
 .show-alt-nav .alt-nav {
 	margin-left: auto;
+}
+
+
+/**
+	Responsive styles
+ */
+
+@media screen and (max-width: 640px) {
+	.PP_Masonry .PP_Masonry__item,
+	.PP_Masonry .PP_Masonry__sizer {
+		margin: 0;
+		border-width: 10px;
+	}
+	
+	.PP_Card .PP_Entry__header {
+		bottom: 1rem;
+		left: 1rem;
+	}
+	
+	.PP_Card .PP_Entry__title {
+		font-size: 1.5rem;
+	}
+	
+	.PP_Card .PP_Entry__subtitle {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 460px) {
+	.PP_Masonry .PP_Masonry__item,
+	.PP_Masonry .PP_Masonry__sizer {
+		margin: 0 auto 1rem;
+		border-width: 0px;
+		width: 100%;
+	}
 }
