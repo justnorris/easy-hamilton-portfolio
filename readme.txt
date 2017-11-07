@@ -33,6 +33,6 @@ Minimalist Portfolio WordPress Theme is child theme of Hamilton WordPress Theme,
 Hamilton WordPress Theme is distributed under the terms of the GNU GPL
 
 == Credits ==
-https://unsplash.com/photos/KdgfgM-Brxg
-https://unsplash.com/photos/dlxLGIy-2VU
-https://unsplash.com/photos/FWOGqSKq_Cs
+https://www.pexels.com/photo/little-white-coffee-table-6412/
+https://www.pexels.com/photo/green-cactus-plant-near-to-white-ceramic-plate-on-brown-wooden-table-154161/
+https://www.pexels.com/photo/cake-chairs-cutlery-decoration-395134/
