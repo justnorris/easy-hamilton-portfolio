@@ -51,19 +51,17 @@ function minimalist_portfolio_welcome_message() {
 
 function minimalist_portfolio_should_display_welcome_message() {
 
-	global $current_user;
-	$user_id = $current_user->ID;
+	$user_id = get_current_user_id();
 
-	return ( 'welcome-is-closed' != get_user_meta( $user_id, 'minimalist_portfolio_welcome', true ) );
+	return ( 'closed' != get_user_meta( $user_id, 'minimalist_portfolio_welcome_message', true ) );
 }
 
 function minimalist_portfolio_close_welcome_message() {
 
-	global $current_user;
-	$user_id = $current_user->ID;
+	$user_id = get_current_user_id();
 
 	if ( isset( $_GET['close-welcome-message'] ) && '1' == $_GET['close-welcome-message'] ) {
-		add_user_meta( $user_id, 'minimalist_portfolio_welcome', 'welcome-is-closed', true );
+		add_user_meta( $user_id, 'minimalist_portfolio_welcome_message', 'closed', true );
 	}
 }
 
