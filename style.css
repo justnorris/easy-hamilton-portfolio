@@ -78,6 +78,16 @@
 	font-size: .875rem;
 }
 
+.PP_Gallery__caption {
+	position: absolute;
+	bottom: 1rem;
+	left: 1rem;
+	background-color: white;
+	display: inline-block;
+	width: auto;
+	padding: 1rem;
+	line-height: 1.77;
+}
 
 /* ========= Hamilton Overrides ========= */
 
