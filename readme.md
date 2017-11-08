@@ -2,7 +2,7 @@
 Minimalist Portfolio is a Hamilton child theme with added styles to work perfeclty with Easy Photography Portfolio plugin. It's the easiest way to set up a nice free portfolio for yourself!
 
 ### Useful Links
-* [Full setp-by-step setup tutorial](https://colormelon.com/free-portfolio-website-tutorial/)
+* [Full step-by-step setup tutorial](https://colormelon.com/free-portfolio-website-tutorial/)
 * [Easy Photography Portfolio plugin](http://easyphotographyportfolio.com)
 * [Minimalist Portfolio on WordPress.org](https://wordpress.org/themes/minimalist-portfolio/)
 
