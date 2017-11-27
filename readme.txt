@@ -1,5 +1,5 @@
 === Minimalist Portfolio ===
-Contributors: justnorris
+Contributors: Colormelon, justnorris
 Donate link: http://colormelon.com
 Requires at least: 4.7
 Tested up to: 4.8.1
