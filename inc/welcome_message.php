@@ -41,7 +41,7 @@ function minimalist_portfolio_welcome_message() {
 			?>
 		</p>
 
-		<a type="button" class="notice-dismiss" href="?<?php echo 'close-welcome-message' ?>=1" style="text-decoration: none;">
+		<a type="button" class="notice-dismiss" href="<?php echo get_admin_url() ?>?close-welcome-message=1" style="text-decoration: none;">
 			<span class="screen-reader-text">Dismiss this notice.</span>
 		</a>
 	</div>
