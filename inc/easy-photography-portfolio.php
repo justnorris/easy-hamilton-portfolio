@@ -1,6 +1,11 @@
 <?php
 
 
+function minimalist_portfolio_epp_add_support() {
+	add_theme_support('easy-photography-portfolio');
+}
+add_action('after_setup_theme', 'minimalist_portfolio_epp_add_support');
+
 /**
  * Change the attached sizes to Hamilton sizes
  */
