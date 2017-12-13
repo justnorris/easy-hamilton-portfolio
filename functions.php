@@ -13,14 +13,7 @@ function minimalist_portfolio_enqueue() {
 	// Necessary styles
 	wp_enqueue_style( 'minimalist-portfolio-hamilton-style', get_template_directory_uri() . '/style.css', array( 'hamilton-fonts' ) );
 	wp_enqueue_style( 'minimalist-portfolio-style', get_stylesheet_uri() );
-
-	// Refresh portfolio after the page load
-	wp_add_inline_script( 'phort-app', '
-		(function(){
-			setTimeout( function() {
-				wp.hooks.doAction("phort.portfolio.refresh");
-			}, 50);
-		})();' );
+	
 }
 
 add_action( 'wp_enqueue_scripts', 'minimalist_portfolio_enqueue', 100 );
