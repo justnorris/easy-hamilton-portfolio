@@ -13,3 +13,16 @@ function minimalist_portfolio_epp_thumb_size( $sizes ) {
 
 add_filter( 'phort/archive/masonry-hovercard/attached_sizes', 'minimalist_portfolio_epp_thumb_size' );
 add_filter( 'phort/single/masonry/attached_sizes', 'minimalist_portfolio_epp_thumb_size' );
+
+
+add_filter( 'phort_get_class', function ( $class ) {
+	if ( ! in_array( 'PP_Description', $class ) ) {
+		return $class;
+	}
+
+	if ( strlen( get_the_content() ) < 280 ) {
+		$class[] = 'fade-block';
+	}
+
+	return $class;
+} );

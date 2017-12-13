@@ -9,7 +9,7 @@
  * Display entry Title, Subtitle, Description
  */
 ?>
-<div <?php phort_class( 'PP_Description thin page-header section-inner fade-block' ) ?>>
+<div <?php phort_class( 'PP_Description thin page-header section-inner' ) ?>>
 	<div class="PP_Description__inner">
 		<h1 class="PP_Description__title title">
 			<?php the_title() ?>

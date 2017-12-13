@@ -2,7 +2,7 @@
 Contributors: Colormelon, justnorris
 Donate link: http://colormelon.com
 Requires at least: 4.7
-Tested up to: 4.8.1
+Tested up to: 4.9.1
 Stable tag: trunk
 License: GPLv3 or later
 License URI: www.gnu.org/licenses/gpl-3.0.html
@@ -24,8 +24,11 @@ Go a step further and make Minimalist your own by choosing between dark or light
 3. Install "Easy Photography Portfolio" plugin
 
 == Changelog ==
+## 1.0.8
+* Fixed bug where long content in portfolio would become invisible on scroll
+
 ## 1.0.0
-- Initial Release
+* Initial Release
 
 
 == Copyright ==
