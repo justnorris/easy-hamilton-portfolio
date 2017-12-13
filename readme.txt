@@ -26,6 +26,11 @@ Go a step further and make Minimalist your own by choosing between dark or light
 == Changelog ==
 ## 1.0.8
 * Fixed bug where long content in portfolio would become invisible on scroll
+* Fixed caption width bug
+* Fixed description width bug
+* Improved responsive portfolio layout
+* Cleaned up scripts
+
 
 ## 1.0.0
 * Initial Release
